@@ -15,7 +15,7 @@ body {
   min-height: 100dvh;
   background-color: white;
   color: black;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .hero {
@@ -92,6 +92,8 @@ body {
 }
 
 .details {
+  gap: 3rem;
+
   .text {
     gap: 1.5rem;
   }
@@ -102,6 +104,7 @@ body {
     color: #1d2939;
     letter-spacing: -0.08rem;
     line-height: 4.5rem; /* 112.5% */
+    margin-top: 1rem;
   }
 
   .text p {
@@ -120,8 +123,11 @@ body {
 }
 
 .header-buttons {
-  margin: 3rem 0;
   gap: 1.25rem;
+
+  .nav-button {
+    height: 4rem;
+  }
 }
 
 .text-primary {
@@ -169,7 +175,7 @@ body {
   margin-left: -1rem;
 }
 
-.people {
+.frame {
   border-radius: 1rem;
   border: 1px solid #b2ddff;
   background: #eff8ff;
@@ -177,6 +183,34 @@ body {
   /* Shadow/3xl */
   box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
   flex: 1;
+  padding: 2rem;
+  gap: 2.5rem;
+}
+
+.controls {
+  gap: 1rem;
+}
+
+.controls * {
+  border-radius: 6.25rem;
+  border: 1px solid #d1e9ff;
+  background: #fff;
+  padding: 0.75rem;
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+  &:hover {
+    background: #d1e9ff;
+    cursor: pointer;
+  }
+}
+
+.video {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
 }
 
 /* utilities */
