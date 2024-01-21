@@ -56,9 +56,13 @@ body {
 }
 
 .nav-buttons {
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   gap: 0.5rem;
+
+  .nav-button {
+    font-weight: 600;
+  }
 }
 
 .nav-button {
@@ -71,12 +75,6 @@ body {
   background: white;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
   border: 1px solid #98a2b3;
-  font-weight: 600;
-
-  &:hover {
-    background: #98a2b3;
-    color: white;
-  }
 }
 
 .button-primary {
