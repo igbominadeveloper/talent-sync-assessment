@@ -21,7 +21,7 @@ body {
 .hero {
   padding: 2.5rem 8rem 6rem;
   height: 90rem;
-  background: url('./checkered-background.svg');
+  background: url('./assets/hero/checkered-background.svg');
 }
 
 .navbar {
