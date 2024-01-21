@@ -15,21 +15,21 @@
   </head>
   <body>
     <section class="hero">
-      <nav class="navbar">
+      <nav class="navbar flex items-center">
         <img class="logo" alt="logo" src="assets/logo.png" />
-        <ul class="links">
-          <li class="link">
+        <ul class="links flex">
+          <li class="link flex items-center">
             Products <img class="chevron-down" src="/assets/chevron-down.svg" />
           </li>
-          <li class="link">
+          <li class="link flex items-center">
             Solutions
             <img class="chevron-down" src="/assets/chevron-down.svg" />
           </li>
-          <li class="link">
+          <li class="link flex items-center">
             Resources
             <img class="chevron-down" src="/assets/chevron-down.svg" />
           </li>
-          <li class="link">Pricing</li>
+          <li class="link flex items-center">Pricing</li>
         </ul>
 
         <div class="nav-buttons">
@@ -37,6 +37,60 @@
           <button class="nav-button button-primary">Sign up for free</button>
         </div>
       </nav>
+
+      <!-- header text -->
+      <header class="header flex">
+        <div class="details">
+          <div class="text flex column">
+            <h1 class="title">Uniting the world, one video call at a time</h1>
+            <p>
+              Experience the future of communication with ClearLink – where
+              crystal-clear video conferencing meets unparalleled simplicity.
+            </p>
+          </div>
+
+          <div class="header-buttons flex">
+            <button class="nav-button button-primary">
+              Start your free trial
+            </button>
+
+            <div class="text-primary flex items-center robot">
+              <img
+                src="/assets/hero/tiny-icons/robot.svg"
+                alt="robot"
+                class="robot-icon"
+              />
+              Discover AI assistant
+            </div>
+          </div>
+
+          <div class="reviews flex">
+            <div class="avatars flex items-center">
+              <img class="avatar" src="/assets/review/1.svg" alt="avatar-1" />
+              <img class="avatar" src="/assets/review/2.svg" alt="avatar-2" />
+              <img class="avatar" src="/assets/review/3.svg" alt="avatar-3" />
+              <img class="avatar" src="/assets/review/4.svg" alt="avatar-4" />
+              <img class="avatar" src="/assets/review/5.svg" alt="avatar-5" />
+            </div>
+
+            <div class="ratings flex column">
+              <div class="stars flex items-center">
+                <img src="/assets/review/star.svg" alt="star" class="rating" />
+                <img src="/assets/review/star.svg" alt="star" class="rating" />
+                <img src="/assets/review/star.svg" alt="star" class="rating" />
+                <img src="/assets/review/star.svg" alt="star" class="rating" />
+                <img src="/assets/review/star.svg" alt="star" class="rating" />
+                <span class="score">5.0</span>
+              </div>
+              <p class="review-text">from 3,000+ reviews</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="people"></div>
+      </header>
     </section>
+
+    <main></main>
   </body>
 </html>
