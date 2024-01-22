@@ -18,6 +18,7 @@ body {
   font-family: Inter, sans-serif;
   max-width: 107rem;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 .hero {
@@ -212,10 +213,12 @@ body {
   padding: 8rem;
   background: white;
 }
+
 .clearlink-advantage .header-text h1,
 .faq-section .header-text h1 {
   font-size: 1.25rem;
 }
+
 .clearlink-advantage .header-text p:first-of-type,
 .faq-section .header-text p:first-of-type {
   font-size: 3rem;
@@ -371,19 +374,21 @@ body {
 }
 
 .faqs {
-  max-width: 47rem;
+  width: 47rem;
   gap: 0.2rem;
 }
 
 .faq {
-  padding: 2rem;
+  padding: 2rem 2rem 1.5rem;
   gap: 0.5rem;
   border-bottom: 0px;
+  flex: 1;
 }
 
 .faq:not(:first-of-type) {
   border-top: 1px solid #eaecf0;
 }
+
 .faq h1 {
   color: #101828;
   font-size: 1.25rem;
@@ -391,17 +396,43 @@ body {
   font-weight: 600;
   line-height: 1.875rem;
 }
-.faq p {
-  color: #475467;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.75rem;
-  /* 155.556% */
+
+.faq-button {
+  background: transparent;
+  border: none;
 }
 
 .question {
-  /* padding: 2rem; */
+  gap: 1rem;
+}
+
+.answer {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #475467;
+  text-align: left;
+
+  display: none;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.faq.active .answer {
+  height: auto;
+  display: flex;
+}
+
+#minus-circle {
+  display: none;
+}
+
+.faq.active #plus-circle {
+  display: none;
+}
+
+.faq.active #minus-circle {
+  display: block;
 }
 
 /* utilities */
