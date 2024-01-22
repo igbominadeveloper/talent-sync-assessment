@@ -298,7 +298,6 @@ body {
   left: 5.8rem;
   width: 14.88963rem;
   height: 9.83275rem;
-  /* transform: rotate(-154.745deg); */
 }
 
 .testimonials {
@@ -565,6 +564,30 @@ body {
 .app-title {
   font-size: 1rem;
   font-weight: 600;
+}
+
+/* website brand */
+.website-social {
+  padding: 3rem 8rem;
+  background: #f9fafb;
+}
+
+#rights {
+  color: #667085;
+  font-size: 1rem;
+}
+
+.social-icons {
+  gap: 1rem;
+}
+
+.social-icon {
+  padding: 0.5rem;
+}
+
+.social-icon:hover {
+  border-radius: 32px;
+  background: black;
 }
 
 /* utilities */

@@ -1,5 +1,8 @@
 const faqItems = document.querySelectorAll('.faq');
 const footerLinksContainer = document.querySelector('.footer-links-container');
+const rights = document.getElementById('rights');
+
+rights.innerText = `© ${new Date().getFullYear()} ClearLink. All rights reserved`;
 
 function expand(event) {
   const faqItem = event.currentTarget;
