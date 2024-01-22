@@ -26,6 +26,17 @@ body {
   scroll-behavior: smooth;
 }
 
+#animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.3s ease-in-out;
+}
+
+#animate.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .hero {
   padding: 2.5rem 8rem 0;
   height: 90rem;
