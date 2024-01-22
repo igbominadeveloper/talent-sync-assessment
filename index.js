@@ -5,7 +5,7 @@ function expand(event) {
   faqItem.classList.toggle('active');
   const faqAnswer = faqItem.querySelector('.answer');
 
-  faqAnswer.style.height = faqItem.classList.has('active')
+  faqAnswer.style.height = faqItem.classList.contains('active')
     ? faqAnswer.scrollHeight + 'px'
     : '0px';
 }

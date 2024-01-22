@@ -385,7 +385,8 @@ body {
   flex: 1;
 }
 
-.faq:not(:first-of-type) {
+.faq:not(:first-of-type),
+.faq:not(:has(.active)) {
   border-top: 1px solid #eaecf0;
 }
 
@@ -415,12 +416,19 @@ body {
 
   display: none;
   overflow: hidden;
-  transition: height 0.3s ease;
+  height: 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq.active {
+  border-radius: 1rem;
+  border: 1px solid #eaecf0;
+  background: #f9fafb;
 }
 
 .faq.active .answer {
   height: auto;
-  display: flex;
+  display: block;
 }
 
 #minus-circle {
