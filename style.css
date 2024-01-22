@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 :root {
   --gray: rgba(102, 112, 133, 1);
   --primary: #175cd3;
@@ -39,6 +44,7 @@ body {
 
 .logo {
   height: 29px;
+  width: max-content;
 }
 
 .links {
@@ -447,6 +453,7 @@ body {
 .trial {
   padding: 6rem;
   padding-right: 0;
+  padding-bottom: 0;
   gap: 8rem;
 }
 
@@ -492,10 +499,72 @@ body {
 .mockup {
   background: url('./assets/screen-mockup.png');
   background-repeat: no-repeat;
-  height: 46rem;
+  height: 44rem;
   background-size: contain;
   flex: 1;
   max-width: 64rem;
+}
+
+.footer {
+  padding: 0 8rem 3rem;
+}
+
+.brand {
+  width: 25rem;
+  gap: 2rem;
+  margin-right: 6.25rem;
+}
+
+.brand-text {
+  color: #475467;
+  font-weight: normal;
+  font-size: 1.125rem;
+  font-style: normal;
+}
+
+.footer-links-container {
+  gap: 2rem;
+  flex: 1;
+  margin-right: 4rem;
+}
+
+.links-title {
+  color: #667085;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.footer-links,
+.links-body {
+  gap: 1rem;
+}
+
+.links-body {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #475467;
+
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem; /* 155.556% */
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer-apps {
+  gap: 1rem;
+}
+
+.app-title {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* utilities */
