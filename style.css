@@ -16,6 +16,8 @@ body {
   background-color: white;
   color: black;
   font-family: Inter, sans-serif;
+  max-width: 107rem;
+  margin: 0 auto;
 }
 
 .hero {
@@ -209,6 +211,170 @@ body {
   gap: 1.25rem;
 }
 
+.clearlink-advantage {
+  padding: 8rem;
+  background: white;
+
+  .header-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .header-text p:first-of-type {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.75rem; /* 125% */
+    letter-spacing: -0.06rem;
+    margin: 0.75rem 0 1.25rem;
+  }
+
+  .header-text p:last-of-type {
+    width: 52.625rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #667085;
+  }
+}
+
+.advantages {
+  margin-top: 5rem;
+}
+
+.advantage {
+  list-style: none;
+  width: 22.5rem;
+
+  & img {
+    padding: 1rem;
+    border-radius: 6.25rem;
+    border: 1px solid #eaecf0;
+    background: #f9fafb;
+  }
+
+  & .details {
+    margin-top: 1.25rem;
+  }
+
+  & h1 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #101828;
+  }
+
+  & p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #475467;
+  }
+}
+
+.advantage-list {
+  flex-wrap: wrap;
+  gap: 3.5rem 2.5rem;
+}
+
+.banner {
+  background: url('/assets/happy-people.png'), lightgray 50% / cover no-repeat;
+  width: 34rem;
+  height: 32.9375rem;
+}
+
+.happy-people {
+  position: relative;
+}
+
+.hand-drawn-arrow {
+  position: absolute;
+  top: -9rem;
+  left: 5.8rem;
+  width: 14.88963rem;
+  height: 9.83275rem;
+  /* transform: rotate(-154.745deg); */
+}
+
+.testimonials {
+  background: #f9fafb;
+  padding: 8rem;
+  margin-top: 6rem;
+
+  & .contents {
+    gap: 4rem;
+    width: 100%;
+  }
+
+  & .content {
+    gap: 3rem;
+    max-width: 40rem;
+  }
+
+  & h1 {
+    color: #101828;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.75rem; /* 136.364% */
+    letter-spacing: -0.055rem;
+  }
+}
+
+.testimonial-footer {
+  & .contact-person img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  & .contact-person {
+    gap: 1rem;
+  }
+
+  & .contact-person p {
+    color: #101828;
+
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.875rem; /* 150% */
+  }
+
+  & .contact-person span {
+    color: #475467;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+  }
+
+  & .testimonial-controls {
+    gap: 2rem;
+  }
+}
+
+.testimonial-images {
+  height: 31rem;
+  flex: 1 0 0;
+  gap: 1rem;
+
+  & div {
+    gap: 1rem;
+    align-items: flex-end;
+  }
+
+  & div:last-of-type {
+    align-items: flex-start;
+  }
+}
+
+.shopify-logo {
+  width: 7.04919rem;
+  height: 2rem;
+}
+
 /* utilities */
 .flex {
   display: flex;
@@ -224,6 +390,10 @@ body {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .pointer {
