@@ -27,7 +27,7 @@ body {
 }
 
 .hero {
-  padding: 2.5rem 8rem 6rem;
+  padding: 2.5rem 8rem 0;
   height: 90rem;
   background: url('./assets/hero/checkered-background.svg');
 }
@@ -216,8 +216,13 @@ body {
 
 .clearlink-advantage,
 .faq-section {
-  padding: 8rem;
+  padding: 6rem 8rem;
   background: white;
+}
+
+.clearlink-advantage {
+  padding-top: 0;
+  margin-top: -12rem;
 }
 
 .clearlink-advantage .header-text h1,
@@ -302,7 +307,7 @@ body {
 
 .testimonials {
   background: #f9fafb;
-  padding: 8rem;
+  padding: 6rem 8rem;
   margin-top: 6rem;
 }
 .testimonials .contents {
@@ -505,7 +510,7 @@ body {
 }
 
 .footer {
-  padding: 2rem 8rem 3rem;
+  padding: 2rem 6rem 3rem;
 }
 
 .brand {
