@@ -373,9 +373,6 @@ body {
   height: 2rem;
 }
 
-.faq-section {
-  padding: 6rem;
-}
 .faq-section .header-text {
   max-width: 34rem;
 }
@@ -455,7 +452,7 @@ body {
 
 /* trial section */
 .trial {
-  padding: 6rem;
+  padding: 6rem 8rem;
   padding-right: 0;
   padding-bottom: 0;
   gap: 8rem;
@@ -510,7 +507,7 @@ body {
 }
 
 .footer {
-  padding: 2rem 6rem 3rem;
+  padding: 2rem 8rem 3rem;
 }
 
 .brand {
