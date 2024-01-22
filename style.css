@@ -294,10 +294,10 @@ body {
 
 .hand-drawn-arrow {
   position: absolute;
-  top: -9rem;
+  top: -13rem;
   left: 5.8rem;
   width: 14.88963rem;
-  height: 9.83275rem;
+  height: 14rem;
 }
 
 .testimonials {
@@ -505,7 +505,7 @@ body {
 }
 
 .footer {
-  padding: 0 8rem 3rem;
+  padding: 2rem 8rem 3rem;
 }
 
 .brand {
